@@ -229,7 +229,7 @@ Free-tier GPU access is rate-limited and session-bound. Re-run after the cooldow
 
 ## 🎥 Presentation
 
-**Video walkthrough:** [Google Drive link](https://drive.google.com/file/d/1eqUm58J1hk8GBFMLank9hmPymZBo2ZAL/view?usp=sharing)
+**Video walkthrough:** [Google Drive link](https://github.com/MINTU296)
 
 The video covers:
 - What the code does, line by line.
