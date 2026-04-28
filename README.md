@@ -109,7 +109,7 @@ Pairing `Gx` with a vertical counterpart `Gy` and combining them via `sqrt(Gx² 
 | `Ben Tennyson.jpg` | Input image used for the demonstration. |
 | `gpu_output_tf.png` | Output image produced by the GPU-based Sobel filter. |
 | `log.txt` | Text log confirming the GPU device that ran the convolution. |
-| `Presentation.pptx` | Slide deck used in the project walkthrough. |
+| `project.pptx` | Slide deck used in the project walkthrough. |
 | `README.md` | This file. |
 
 ---
