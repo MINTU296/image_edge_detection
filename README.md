@@ -237,8 +237,6 @@ The video covers:
 - A side-by-side visual comparison of input and output.
 - Lessons learned and possible extensions.
 
-A companion slide deck is also included as `Presentation.pptx`.
-
 ---
 
 ## 📌 Conclusion
