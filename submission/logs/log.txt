@@ -1,0 +1,54 @@
+GPU Edge Detection - Execution Log
+==================================
+Started (UTC)    : 2026-04-28T07:45:45.427739+00:00
+Host             : mintukumar-L14M3V2RHH
+Platform         : Darwin 25.2.0 (arm64)
+Python           : 3.12.12
+TensorFlow       : 2.16.2
+NumPy            : 1.26.4
+Pillow           : 12.2.0
+GPUs detected    : 1
+  - /physical_device:GPU:0 (GPU)
+Selected device  : /GPU:0
+
+Found 4 input image(s) in submission/inputs
+
+[1/4] before_01_original_BenTennyson.jpg
+  input    : submission/inputs/before_01_original_BenTennyson.jpg
+  size     : 720 x 540 (388,800 pixels)
+  device   : /GPU:0
+  conv ms  : 1.633
+  Mpix/s   : 238.1
+  output   : submission/outputs/after_01_original_BenTennyson_edges.png  shape=(540, 720)
+
+[2/4] before_02_BenTennyson_1024x1024.png
+  input    : submission/inputs/before_02_BenTennyson_1024x1024.png
+  size     : 1024 x 1024 (1,048,576 pixels)
+  device   : /GPU:0
+  conv ms  : 1.940
+  Mpix/s   : 540.6
+  output   : submission/outputs/after_02_BenTennyson_1024x1024_edges.png  shape=(1024, 1024)
+
+[3/4] before_02_BenTennyson_256x256.png
+  input    : submission/inputs/before_02_BenTennyson_256x256.png
+  size     : 256 x 256 (65,536 pixels)
+  device   : /GPU:0
+  conv ms  : 1.313
+  Mpix/s   : 49.9
+  output   : submission/outputs/after_02_BenTennyson_256x256_edges.png  shape=(256, 256)
+
+[4/4] before_02_BenTennyson_4096x4096.png
+  input    : submission/inputs/before_02_BenTennyson_4096x4096.png
+  size     : 4096 x 4096 (16,777,216 pixels)
+  device   : /GPU:0
+  conv ms  : 59.678
+  Mpix/s   : 281.1
+  output   : submission/outputs/after_02_BenTennyson_4096x4096_edges.png  shape=(4096, 4096)
+
+Summary
+-------
+Images processed : 4
+Total pixels     : 18,280,128
+Total conv time  : 64.563 ms
+Aggregate Mpix/s : 283.1
+Finished (UTC)   : 2026-04-28T07:45:46.066082+00:00
